@@ -146,17 +146,19 @@ nav ul li a:hover {
 }
 .afterhero {
   background-color: #fdf0e9;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .afterhro {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   padding-left: 100px;
   padding-right: 100px;
 }
-.hrafterhero {
-  border: 0.5px solid #F3D1BF;
+.hrafterwork {
+  border: 0.5px solid #f3d1bf;
   width: 100%;
 }
 .about {
@@ -253,48 +255,140 @@ nav ul li a:hover {
   margin-bottom: 20px;
   color: #391400;
 }
-.workpara{
-    font-size: 18px;
-    font-weight: normal;
-    margin-bottom: 20px;
-    color: #391400;
-    line-height: 2;
+.workpara {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #391400;
+  line-height: 2;
 }
-.workbtn{
-    background-color: transparent;
-    color: #391400;
-    height: 55px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    border-color: transparent;
+.workbtn {
+  background-color: transparent;
+  color: #391400;
+  height: 55px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-color: transparent;
 }
-.worklist{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 80%;
+.worklist {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin-top: 50px;
+  padding-left: 50px;
+  flex-direction: column;
+}
+.worklistone {
+  display: flex;
+  align-items: center;
+  align-content: start;
+}
+.paralistnum {
+  color: #391400;
+  font-size: 75px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.paralisttxt {
+  color: #391400;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.video {
+  padding: 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf0e9;
+}
+/* .imgofvideo{
+    height: 500px;
+    width: 500px;
+    margin-right: 80px;
+} */
+.videotxt {
+  margin-left: 100px;
+}
+.videofirst {
+  color: #ef6d58;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.videotitle {
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #391400;
+}
+.videopara {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #391400;
+  line-height: 1.5;
+}
+.videobtn {
+  background-color: transparent;
+  color: #391400;
+  height: 55px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-color: transparent;
+}
+.features {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf0e9;
+}
+.featuresText {
+  margin-right: 100px;
+}
+.featuresfirst {
+  color: #ef6d58;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.featurestitle {
+  font-size: 75px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #391400;
+}
+.featurespara {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #391400;
+  line-height: 1.5;
+}
+.featuresimgin {
+  height: 500px;
+  width: 500px;
+}
+.featurelist{
     margin-top: 50px;
-    padding-left: 50px;
-    flex-direction: column;
 }
-.worklistone{
-    display: flex;
-    align-items: center;
-    align-content: start;
+.featurelistone {
+  display: flex;
+  align-items: center;
+  align-content: start;
+  margin-bottom: 20px;
 }
-.paralistnum{
-    color: #391400;
-    font-size: 75px;
-    font-weight: bolder;
-    margin-bottom: 20px;
-    margin-right: 20px;
+.featurelistnum {
+  color: #ef6d58;
+  margin-right: 25px;
 }
-.paralisttxt{
-    color: #391400;
-    font-size: 24px;
-    font-weight: bolder;
-    margin-bottom: 20px;
+.featurelisttxt {
+  color: #391400;
+  font-size: 18px;
+  font-weight: normal;
 }
