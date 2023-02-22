@@ -953,3 +953,62 @@ nav ul li a:hover {
   justify-content: end;
   height: 80px;
 }
+footer{
+  background-color: #fdf0e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.footerlogo{
+  width: 25VW;
+  height: 200px;
+}
+.footermenu{
+  width: 25VW;
+  height: 200px;
+}
+.footertitle{
+  color: #ef6d58;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  
+}
+.footermenuul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 2;
+}
+.footerservice{
+  width: 25VW;
+  height: 200px;
+}
+.footersertitle{
+  color: #ef6d58;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.footerserul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 2;
+}
+.footersocial{
+  width: 25VW;
+  height: 200px;
+}
+.footersociallogo{
+  display: flex;
+  justify-content: flex-end;
+}
